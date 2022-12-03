@@ -1,0 +1,29 @@
+*{
+    background : ;
+}
+#icon{
+    font-size:100px;
+}
+input{
+    display :flex;
+    flex-direction: column;
+    margin: 10px;
+}
+button{
+    margin:10px;
+}
+#icon{
+    animation : icon 2s infinite;
+    transition : 1s ease all;
+}
+@keyframes icon{
+    0%{ text-align: left;}
+    100%{text-align: center;}
+    50%{text-align:right;}
+}
+/*@keyframes icon{
+    0%{ margin-left: 50px;}
+    100%{margin-left: 100px;}
+    50%{margin-left: 150px;}
+}
+*/
