@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <script src="./app.js"></script>
+    <input type="text" name="word" id="words" placeholder="Type your words">
+    <button type="button" onClick="search()">Search</button>
+    <h3>Add Any words</h3>
+    <input type="text"  id="addWord" placeholder="English">
+    <input type="text"  id="addMean" placeholder="اردو">
+    <input type="text" id="addIcon" placeholder="Emoji">
+     <button type="button" onClick="add()">Add</button>
+    <table width="400px">
+        <tr>
+            <th align="center" colspan="3">Type Word in English/Urdu</th>
+        </tr>
+        <tr>
+            <th>English</th>
+            <th>اردو</th>
+        
+        </tr>
+        <tr>
+            <td id="word" align="center"></td>
+            <td id="means" align="center"></td></tr>
+            <tr>
+  <td id="icon" align="" colspan="2"></td>
+         
+        </tr>
+    </table>
+    <marquee behavior="alternate">Dictionary</marquee>
+</body>
+</html>
